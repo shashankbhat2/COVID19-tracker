@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@600&display=swap');
+
+.ptitle{
+    font-family: Sarabun;
+    font-weight: bold;
+    color: indigo;
+}
+
+.plist{
+    color: darkcyan;
+    display: inline-flex;
+    font-family: Sarabun;
+    font-weight: bold;
+    list-style: none;
+}
+
+
+.lnk{
+    text-decoration: none;
+}
+
+.dev{
+    display: inline-flex;
+}

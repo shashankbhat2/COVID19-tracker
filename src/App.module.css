@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@600&display=swap');
+
+body{
+    background: rgb(240, 240, 240);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.image{
+    margin-top: 20px;
+    width: 300px;
+}
+
+.subline{
+    color: grey;
+    font-size: 30px;
+    font-family: Sarabun;
+    text-decoration: none;
+}
+
+@media (max-width: 770px){
+    .container{
+        margin: 0 10%;
+    }
+
+    .image{
+        width: 100%;
+    }
+}

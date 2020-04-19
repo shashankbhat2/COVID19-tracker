@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@600&display=swap');
+
+.formControl{
+    width: 30%;
+    border: none;
+    margin-bottom: 30px !important;
+}
+
+.picker{
+    font-family: Sarabun;
+    font-weight: bold;
+    background: white;
+    border: solid 2.5px lightgray;
+    border-radius: 3px;
+}
+
+@media (max-width: 770px){
+    .formControl{
+        width: 50%;
+    }
+}
